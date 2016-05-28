@@ -16,7 +16,7 @@ public class MainClass extends Applet implements Runnable
     public void init()
     {
         int breedte = 800;
-        int hoogte = 800;
+        int hoogte = 1000;
         setSize(breedte, hoogte);
         setBackground (Color.black);
         background = getImage(getDocumentBase(),"bg.jpg");
